@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olive & Thyme - Authentic Mediterranean Cuisine">
+    <title>Olive & Thyme | Mediterranean Restaurant</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Olive & Thyme</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active" data-en="Home" data-gr="Αρχική">Home</a></li>
+                <li><a href="menu.html" data-en="Menu" data-gr="Μενού">Menu</a></li>
+                <li><a href="about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                <li><a href="contact.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Experience Mediterranean Heritage" data-gr="Ζήστε τη Μεσογειακή Κληρονομιά">
+                Experience Mediterranean Heritage
+            </h1>
+            <p class="hero-subtitle" data-en="Where tradition meets culinary excellence" data-gr="Όπου η παράδοση συναντά τη γαστρονομική αριστεία">
+                Where tradition meets culinary excellence
+            </p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary" data-en="View Our Menu" data-gr="Δείτε το Μενού">View Our Menu</a>
+                <a href="contact.html" class="btn btn-secondary" data-en="Reserve a Table" data-gr="Κράτηση Τραπεζιού">Reserve a Table</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-en="Welcome" data-gr="Καλώς Ήρθατε">Welcome</span>
+                <h2 data-en="A Journey Through Mediterranean Flavors" data-gr="Ένα Ταξίδι στις Μεσογειακές Γεύσεις">
+                    A Journey Through Mediterranean Flavors
+                </h2>
+            </div>
+            <div class="welcome-content">
+                <p data-en="At Olive & Thyme, we bring the warmth of Mediterranean hospitality and the richness of traditional recipes to your table. Each dish is crafted with locally sourced ingredients and prepared with passion by our experienced chefs." data-gr="Στο Olive & Thyme, φέρνουμε τη ζεστασιά της μεσογειακής φιλοξενίας και τον πλούτο των παραδοσιακών συνταγών στο τραπέζι σας. Κάθε πιάτο δημιουργείται με τοπικά υλικά και ετοιμάζεται με πάθος από τους έμπειρους σεφ μας.">
+                    At Olive & Thyme, we bring the warmth of Mediterranean hospitality and the richness of traditional recipes to your table. Each dish is crafted with locally sourced ingredients and prepared with passion by our experienced chefs.
+                </p>
+                <p data-en="Whether you're joining us for a romantic dinner, a family celebration, or a casual lunch with friends, we promise an unforgettable dining experience that celebrates the best of Mediterranean cuisine." data-gr="Είτε μας επισκέπτεστε για ένα ρομαντικό δείπνο, μια οικογενειακή γιορτή ή ένα απλό γεύμα με φίλους, υποσχόμαστε μια αξέχαστη γαστρονομική εμπειρία που γιορτάζει τα καλύτερα της μεσογειακής κουζίνας.">
+                    Whether you're joining us for a romantic dinner, a family celebration, or a casual lunch with friends, we promise an unforgettable dining experience that celebrates the best of Mediterranean cuisine.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured-dishes">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label" data-en="Signature Dishes" data-gr="Εμβληματικά Πιάτα">Signature Dishes</span>
+                <h2 data-en="Chef's Recommendations" data-gr="Προτάσεις του Σεφ">Chef's Recommendations</h2>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=800" alt="Grilled Octopus">
+                        <div class="dish-overlay">
+                            <span class="dish-tag" data-en="Chef's Special" data-gr="Ειδικό Σεφ">Chef's Special</span>
+                        </div>
+                    </div>
+                    <div class="dish-info">
+                        <h3 data-en="Grilled Octopus" data-gr="Χταπόδι στη Σχάρα">Grilled Octopus</h3>
+                        <p data-en="Tender octopus grilled to perfection, served with lemon-herb potatoes and kalamata olives" data-gr="Τρυφερό χταπόδι ψημένο στη σχάρα, σερβιρισμένο με πατάτες λεμονιού και ελιές Καλαμών">
+                            Tender octopus grilled to perfection, served with lemon-herb potatoes and kalamata olives
+                        </p>
+                        <span class="dish-price">€24</span>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800" alt="Mediterranean Mezze">
+                        <div class="dish-overlay">
+                            <span class="dish-tag" data-en="Popular" data-gr="Δημοφιλές">Popular</span>
+                        </div>
+                    </div>
+                    <div class="dish-info">
+                        <h3 data-en="Mediterranean Mezze Platter" data-gr="Πιατέλα Μεσογειακών Μεζέδων">Mediterranean Mezze Platter</h3>
+                        <p data-en="A generous selection of hummus, tzatziki, dolmades, feta, and warm pita bread" data-gr="Μια γενναιόδωρη επιλογή χούμους, τζατζίκι, ντολμάδες, φέτα και ζεστό ψωμί πίτα">
+                            A generous selection of hummus, tzatziki, dolmades, feta, and warm pita bread
+                        </p>
+                        <span class="dish-price">€18</span>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=800" alt="Lamb Souvlaki">
+                        <div class="dish-overlay">
+                            <span class="dish-tag" data-en="Traditional" data-gr="Παραδοσιακό">Traditional</span>
+                        </div>
+                    </div>
+                    <div class="dish-info">
+                        <h3 data-en="Lamb Souvlaki" data-gr="Σουβλάκι Αρνίσιο">Lamb Souvlaki</h3>
+                        <p data-en="Marinated lamb skewers with tomatoes, onions, and our secret blend of Mediterranean spices" data-gr="Μαρινάρισμένα σουβλάκια αρνίσια με ντομάτες, κρεμμύδια και το μυστικό μας μείγμα μεσογειακών μπαχαρικών">
+                            Marinated lamb skewers with tomatoes, onions, and our secret blend of Mediterranean spices
+                        </p>
+                        <span class="dish-price">€22</span>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800" alt="Seafood Risotto">
+                        <div class="dish-overlay">
+                            <span class="dish-tag" data-en="Premium" data-gr="Premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="dish-info">
+                        <h3 data-en="Seafood Risotto" data-gr="Ριζότο Θαλασσινών">Seafood Risotto</h3>
+                        <p data-en="Creamy Arborio rice with fresh prawns, mussels, and calamari in a saffron-white wine reduction" data-gr="Κρεμώδες ρύζι Arborio με φρέσκες γαρίδες, μύδια και καλαμαράκια σε σάλτσα σαφράν-λευκό κρασί">
+                            Creamy Arborio rice with fresh prawns, mussels, and calamari in a saffron-white wine reduction
+                        </p>
+                        <span class="dish-price">€28</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opening Hours -->
+    <section class="opening-hours">
+        <div class="container">
+            <div class="hours-content">
+                <div class="hours-text">
+                    <h2 data-en="Visit Us" data-gr="Επισκεφθείτε μας">Visit Us</h2>
+                    <p data-en="We're open seven days a week to serve you the finest Mediterranean cuisine" data-gr="Είμαστε ανοιχτά επτά ημέρες την εβδομάδα για να σας σερβίρουμε την καλύτερη μεσογειακή κουζίνα">
+                        We're open seven days a week to serve you the finest Mediterranean cuisine
+                    </p>
+                </div>
+                <div class="hours-schedule">
+                    <div class="schedule-item">
+                        <span class="day" data-en="Monday - Friday" data-gr="Δευτέρα - Παρασκευή">Monday - Friday</span>
+                        <span class="time">12:00 - 23:00</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day" data-en="Saturday" data-gr="Σάββατο">Saturday</span>
+                        <span class="time">11:00 - 00:00</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="day" data-en="Sunday" data-gr="Κυριακή">Sunday</span>
+                        <span class="time">11:00 - 23:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-en="Ready to Experience Mediterranean Excellence?" data-gr="Έτοιμοι να Ζήσετε τη Μεσογειακή Αριστεία;">
+                    Ready to Experience Mediterranean Excellence?
+                </h2>
+                <p data-en="Reserve your table today and let us take you on a culinary journey" data-gr="Κλείστε το τραπέζι σας σήμερα και αφήστε μας να σας ταξιδέψουμε γαστρονομικά">
+                    Reserve your table today and let us take you on a culinary journey
+                </p>
+                <a href="contact.html" class="btn btn-primary-inverse" data-en="Make a Reservation" data-gr="Κάντε Κράτηση">Make a Reservation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Olive & Thyme</span>
+                    </div>
+                    <p data-en="Bringing authentic Mediterranean flavors to your table since 2020" data-gr="Φέρνοντας αυθεντικές μεσογειακές γεύσεις στο τραπέζι σας από το 2020">
+                        Bringing authentic Mediterranean flavors to your table since 2020
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Quick Links" data-gr="Σύνδεσμοι">Quick Links</h3>
+                    <ul>
+                        <li><a href="menu.html" data-en="Our Menu" data-gr="Το Μενού μας">Our Menu</a></li>
+                        <li><a href="about.html" data-en="About Us" data-gr="Σχετικά με Εμάς">About Us</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Contact Info" data-gr="Στοιχεία Επικοινωνίας">Contact Info</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> <span>123 Mediterranean Ave, Athens</span></li>
+                        <li><i class="fas fa-phone"></i> <span>+30 210 123 4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@oliveandthyme.gr</span></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Follow Us" data-gr="Ακολουθήστε μας">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Olive & Thyme. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olive & Thyme - Our Menu">
+    <title>Menu | Olive & Thyme</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Olive & Thyme</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-en="Home" data-gr="Αρχική">Home</a></li>
+                <li><a href="menu.html" class="active" data-en="Menu" data-gr="Μενού">Menu</a></li>
+                <li><a href="about.html" data-en="About" data-gr="Σχετικά">About</a></li>
+                <li><a href="contact.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="Our Menu" data-gr="Το Μενού μας">Our Menu</h1>
+            <p data-en="Discover the authentic flavors of the Mediterranean" data-gr="Ανακαλύψτε τις αυθεντικές γεύσεις της Μεσογείου">
+                Discover the authentic flavors of the Mediterranean
+            </p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-section">
+        <div class="container">
+            
+            <!-- Appetizers -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <i class="fas fa-utensils"></i>
+                    <h2 data-en="Appetizers" data-gr="Ορεκτικά">Appetizers</h2>
+                    <div class="category-line"></div>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Classic Hummus" data-gr="Κλασικό Χούμους">Classic Hummus</h3>
+                            <span class="item-price">€6</span>
+                        </div>
+                        <p data-en="Creamy chickpea dip with tahini, garlic, and olive oil. Served with warm pita bread" data-gr="Κρεμώδης πάστα ρεβιθιού με ταχίνι, σκόρδο και ελαιόλαδο. Σερβίρεται με ζεστή πίτα">
+                            Creamy chickpea dip with tahini, garlic, and olive oil. Served with warm pita bread
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Tzatziki" data-gr="Τζατζίκι">Tzatziki</h3>
+                            <span class="item-price">€5</span>
+                        </div>
+                        <p data-en="Greek yogurt with cucumber, garlic, dill, and a hint of lemon" data-gr="Ελληνικό γιαούρτι με αγγούρι, σκόρδο, άνηθο και λίγο λεμόνι">
+                            Greek yogurt with cucumber, garlic, dill, and a hint of lemon
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Stuffed Vine Leaves" data-gr="Ντολμάδες">Stuffed Vine Leaves</h3>
+                            <span class="item-price">€8</span>
+                        </div>
+                        <p data-en="Tender grape leaves filled with aromatic rice, herbs, and pine nuts" data-gr="Τρυφερά αμπελόφυλλα γεμισμένα με αρωματικό ρύζι, μυρωδικά και κουκουνάρι">
+                            Tender grape leaves filled with aromatic rice, herbs, and pine nuts
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Saganaki" data-gr="Σαγανάκι">Saganaki</h3>
+                            <span class="item-price">€9</span>
+                        </div>
+                        <p data-en="Pan-fried Kefalograviera cheese, flambéed with brandy and served with lemon" data-gr="Τηγανητό τυρί Κεφαλογραβιέρα, φλαμπέ με κονιάκ και σερβιρισμένο με λεμόνι">
+                            Pan-fried Kefalograviera cheese, flambéed with brandy and served with lemon
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Feta & Olive Plate" data-gr="Πιάτο Φέτας & Ελιών">Feta & Olive Plate</h3>
+                            <span class="item-price">€7</span>
+                        </div>
+                        <p data-en="Authentic Greek feta with Kalamata olives, cherry tomatoes, and oregano" data-gr="Αυθεντική ελληνική φέτα με ελιές Καλαμών, ντοματίνια και ρίγανη">
+                            Authentic Greek feta with Kalamata olives, cherry tomatoes, and oregano
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Grilled Calamari" data-gr="Καλαμαράκια Σχάρας">Grilled Calamari</h3>
+                            <span class="item-price">€12</span>
+                        </div>
+                        <p data-en="Fresh squid grilled and drizzled with lemon-olive oil dressing" data-gr="Φρέσκο καλαμάρι ψημένο στη σχάρα με σάλτσα λεμόνι-ελαιόλαδο">
+                            Fresh squid grilled and drizzled with lemon-olive oil dressing
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <i class="fas fa-fire"></i>
+                    <h2 data-en="Main Courses" data-gr="Κύρια Πιάτα">Main Courses</h2>
+                    <div class="category-line"></div>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item featured">
+                        <div class="item-header">
+                            <h3 data-en="Grilled Octopus" data-gr="Χταπόδι στη Σχάρα">Grilled Octopus</h3>
+                            <span class="item-price">€24</span>
+                        </div>
+                        <p data-en="Tender octopus grilled to perfection, served with lemon-herb potatoes and Kalamata olives" data-gr="Τρυφερό χταπόδι ψημένο στη σχάρα, σερβιρισμένο με πατάτες λεμονιού και ελιές Καλαμών">
+                            Tender octopus grilled to perfection, served with lemon-herb potatoes and Kalamata olives
+                        </p>
+                        <span class="featured-badge" data-en="Chef's Special" data-gr="Ειδικό Σεφ">Chef's Special</span>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Lamb Souvlaki" data-gr="Σουβλάκι Αρνίσιο">Lamb Souvlaki</h3>
+                            <span class="item-price">€22</span>
+                        </div>
+                        <p data-en="Marinated lamb skewers with tomatoes, onions, and our secret blend of Mediterranean spices. Served with rice" data-gr="Μαρινάρισμένα σουβλάκια αρνίσια με ντομάτες, κρεμμύδια και το μυστικό μας μείγμα μεσογειακών μπαχαρικών. Σερβίρεται με ρύζι">
+                            Marinated lamb skewers with tomatoes, onions, and our secret blend of Mediterranean spices. Served with rice
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Moussaka" data-gr="Μουσακάς">Moussaka</h3>
+                            <span class="item-price">€18</span>
+                        </div>
+                        <p data-en="Layers of eggplant, spiced beef, and creamy béchamel sauce, baked to golden perfection" data-gr="Στρώσεις μελιτζάνας, αρωματικό κιμά και κρεμώδης σάλτσα μπεσαμέλ, ψημένο σε χρυσαφένιο χρώμα">
+                            Layers of eggplant, spiced beef, and creamy béchamel sauce, baked to golden perfection
+                        </p>
+                    </div>
+
+                    <div class="menu-item featured">
+                        <div class="item-header">
+                            <h3 data-en="Seafood Risotto" data-gr="Ριζότο Θαλασσινών">Seafood Risotto</h3>
+                            <span class="item-price">€28</span>
+                        </div>
+                        <p data-en="Creamy Arborio rice with fresh prawns, mussels, and calamari in a saffron-white wine reduction" data-gr="Κρεμώδες ρύζι Arborio με φρέσκες γαρίδες, μύδια και καλαμαράκια σε σάλτσα σαφράν-λευκό κρασί">
+                            Creamy Arborio rice with fresh prawns, mussels, and calamari in a saffron-white wine reduction
+                        </p>
+                        <span class="featured-badge" data-en="Premium" data-gr="Premium">Premium</span>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Chicken Souvlaki" data-gr="Κοτόπουλο Σουβλάκι">Chicken Souvlaki</h3>
+                            <span class="item-price">€16</span>
+                        </div>
+                        <p data-en="Grilled chicken skewers marinated in lemon and herbs, served with tzatziki and pita" data-gr="Σουβλάκια κοτόπουλο μαρινάρισμένα σε λεμόνι και μυρωδικά, σερβιρισμένα με τζατζίκι και πίτα">
+                            Grilled chicken skewers marinated in lemon and herbs, served with tzatziki and pita
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Sea Bream" data-gr="Τσιπούρα">Sea Bream</h3>
+                            <span class="item-price">€26</span>
+                        </div>
+                        <p data-en="Whole Mediterranean sea bream, grilled and served with seasonal vegetables and lemon" data-gr="Ολόκληρη μεσογειακή τσιπούρα, ψημένη στη σχάρα και σερβιρισμένη με εποχιακά λαχανικά και λεμόνι">
+                            Whole Mediterranean sea bream, grilled and served with seasonal vegetables and lemon
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Greek Meatballs" data-gr="Κεφτέδες">Greek Meatballs</h3>
+                            <span class="item-price">€17</span>
+                        </div>
+                        <p data-en="Homemade meatballs in rich tomato sauce with fresh herbs, served with orzo pasta" data-gr="Σπιτικοί κεφτέδες σε πλούσια σάλτσα ντομάτας με φρέσκα μυρωδικά, σερβιρισμένοι με κριθαράκι">
+                            Homemade meatballs in rich tomato sauce with fresh herbs, served with orzo pasta
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Vegetarian Platter" data-gr="Χορτοφαγική Πιατέλα">Vegetarian Platter</h3>
+                            <span class="item-price">€19</span>
+                        </div>
+                        <p data-en="A selection of grilled vegetables, falafel, hummus, and fresh Greek salad" data-gr="Επιλογή ψητών λαχανικών, φαλάφελ, χούμους και φρέσκια ελληνική σαλάτα">
+                            A selection of grilled vegetables, falafel, hummus, and fresh Greek salad
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <i class="fas fa-ice-cream"></i>
+                    <h2 data-en="Desserts" data-gr="Επιδόρπια">Desserts</h2>
+                    <div class="category-line"></div>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Baklava" data-gr="Μπακλαβάς">Baklava</h3>
+                            <span class="item-price">€7</span>
+                        </div>
+                        <p data-en="Layers of crispy phyllo with walnuts and honey syrup, served warm" data-gr="Στρώσεις τραγανού φύλλου με καρύδια και σιρόπι μελιού, σερβιρισμένο ζεστό">
+                            Layers of crispy phyllo with walnuts and honey syrup, served warm
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Greek Yogurt with Honey" data-gr="Γιαούρτι με Μέλι">Greek Yogurt with Honey</h3>
+                            <span class="item-price">€6</span>
+                        </div>
+                        <p data-en="Thick Greek yogurt topped with local honey and crushed walnuts" data-gr="Παχύ ελληνικό γιαούρτι με τοπικό μέλι και τριμμένα καρύδια">
+                            Thick Greek yogurt topped with local honey and crushed walnuts
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Galaktoboureko" data-gr="Γαλακτομπούρεκο">Galaktoboureko</h3>
+                            <span class="item-price">€8</span>
+                        </div>
+                        <p data-en="Creamy custard wrapped in crispy phyllo pastry, drizzled with syrup" data-gr="Κρεμώδης κρέμα τυλιγμένη σε τραγανό φύλλο, με σιρόπι">
+                            Creamy custard wrapped in crispy phyllo pastry, drizzled with syrup
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Loukoumades" data-gr="Λουκουμάδες">Loukoumades</h3>
+                            <span class="item-price">€7</span>
+                        </div>
+                        <p data-en="Traditional Greek honey puffs topped with cinnamon and crushed walnuts" data-gr="Παραδοσιακοί ελληνικοί λουκουμάδες με κανέλα και τριμμένα καρύδια">
+                            Traditional Greek honey puffs topped with cinnamon and crushed walnuts
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Portokalopita" data-gr="Πορτοκαλόπιτα">Portokalopita</h3>
+                            <span class="item-price">€8</span>
+                        </div>
+                        <p data-en="Orange syrup cake made with phyllo pastry and Greek yogurt" data-gr="Κέικ πορτοκαλιού με φύλλο και ελληνικό γιαούρτι">
+                            Orange syrup cake made with phyllo pastry and Greek yogurt
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Seasonal Fresh Fruit" data-gr="Φρέσκα Φρούτα Εποχής">Seasonal Fresh Fruit</h3>
+                            <span class="item-price">€6</span>
+                        </div>
+                        <p data-en="A selection of the finest Mediterranean seasonal fruits" data-gr="Επιλογή από τα καλύτερα μεσογειακά εποχιακά φρούτα">
+                            A selection of the finest Mediterranean seasonal fruits
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <i class="fas fa-wine-glass"></i>
+                    <h2 data-en="Drinks" data-gr="Ποτά">Drinks</h2>
+                    <div class="category-line"></div>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Greek Coffee" data-gr="Ελληνικός Καφές">Greek Coffee</h3>
+                            <span class="item-price">€3</span>
+                        </div>
+                        <p data-en="Traditional Greek coffee, rich and aromatic" data-gr="Παραδοσιακός ελληνικός καφές, πλούσιος και αρωματικός">
+                            Traditional Greek coffee, rich and aromatic
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Frappé" data-gr="Φραπέ">Frappé</h3>
+                            <span class="item-price">€4</span>
+                        </div>
+                        <p data-en="Iced coffee shake, a Greek classic" data-gr="Παγωμένος καφές, ένα ελληνικό κλασικό">
+                            Iced coffee shake, a Greek classic
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Fresh Orange Juice" data-gr="Φρέσκος Χυμός Πορτοκάλι">Fresh Orange Juice</h3>
+                            <span class="item-price">€5</span>
+                        </div>
+                        <p data-en="Freshly squeezed orange juice" data-gr="Φρεσκοστυμμένος χυμός πορτοκάλι">
+                            Freshly squeezed orange juice
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="House Wine (Glass)" data-gr="Κρασί (Ποτήρι)">House Wine (Glass)</h3>
+                            <span class="item-price">€6</span>
+                        </div>
+                        <p data-en="Red or White - Selection of Greek wines" data-gr="Κόκκινο ή Λευκό - Επιλογή ελληνικών κρασιών">
+                            Red or White - Selection of Greek wines
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Ouzo" data-gr="Ούζο">Ouzo</h3>
+                            <span class="item-price">€5</span>
+                        </div>
+                        <p data-en="Traditional Greek anise-flavored aperitif" data-gr="Παραδοσιακό ελληνικό απεριτίφ με γεύση γλυκάνισο">
+                            Traditional Greek anise-flavored aperitif
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Metaxa 5*" data-gr="Μεταξά 5*">Metaxa 5*</h3>
+                            <span class="item-price">€7</span>
+                        </div>
+                        <p data-en="Smooth Greek amber spirit" data-gr="Απαλό ελληνικό ποτό">
+                            Smooth Greek amber spirit
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Soft Drinks" data-gr="Αναψυκτικά">Soft Drinks</h3>
+                            <span class="item-price">€3</span>
+                        </div>
+                        <p data-en="Coca-Cola, Sprite, Fanta, Sparkling Water" data-gr="Coca-Cola, Sprite, Fanta, Ανθρακούχο Νερό">
+                            Coca-Cola, Sprite, Fanta, Sparkling Water
+                        </p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-header">
+                            <h3 data-en="Greek Mountain Tea" data-gr="Ελληνικό Τσάι του Βουνού">Greek Mountain Tea</h3>
+                            <span class="item-price">€4</span>
+                        </div>
+                        <p data-en="Herbal tea from Mount Olympus, naturally caffeine-free" data-gr="Βότανο από τον Όλυμπο, φυσικά χωρίς καφεΐνη">
+                            Herbal tea from Mount Olympus, naturally caffeine-free
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Olive & Thyme</span>
+                    </div>
+                    <p data-en="Bringing authentic Mediterranean flavors to your table since 2020" data-gr="Φέρνοντας αυθεντικές μεσογειακές γεύσεις στο τραπέζι σας από το 2020">
+                        Bringing authentic Mediterranean flavors to your table since 2020
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Quick Links" data-gr="Σύνδεσμοι">Quick Links</h3>
+                    <ul>
+                        <li><a href="menu.html" data-en="Our Menu" data-gr="Το Μενού μας">Our Menu</a></li>
+                        <li><a href="about.html" data-en="About Us" data-gr="Σχετικά με Εμάς">About Us</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-gr="Επικοινωνία">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Contact Info" data-gr="Στοιχεία Επικοινωνίας">Contact Info</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> <span>123 Mediterranean Ave, Athens</span></li>
+                        <li><i class="fas fa-phone"></i> <span>+30 210 123 4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@oliveandthyme.gr</span></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-en="Follow Us" data-gr="Ακολουθήστε μας">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Olive & Thyme. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
