@@ -119,6 +119,7 @@ a {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 var(--container-padding);
+    padding-right: 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1345,6 +1346,10 @@ section {
         display: flex;
     }
     
+    .nav-container {
+        padding-right: 100px;
+    }
+    
     .hero {
         min-height: 600px;
     }
@@ -1386,6 +1391,10 @@ section {
     .language-toggle {
         top: 10px;
         right: 10px;
+    }
+    
+    .nav-container {
+        padding-right: 90px;
     }
     
     .hero-title {
