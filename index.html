@@ -15,6 +15,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .built-by {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.45);
+            margin-top: 6px;
+        }
+        .built-by a {
+            color: rgba(255, 255, 255, 0.75);
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+            padding-bottom: 1px;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        .built-by a:hover {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
 </head>
 <body>
     <!-- Language Toggle -->
@@ -230,7 +251,7 @@
                     <ul class="contact-list">
                         <li><i class="fas fa-map-marker-alt"></i> <span>123 Mediterranean Ave, Athens</span></li>
                         <li><i class="fas fa-phone"></i> <span>+30 210 123 4567</span></li>
-                        <li><i class="fas fa-envelope"></i> <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fe97909891be919297889b9f909a8a9687939bd0998c">[email&#160;protected]</a></span></li>
+                        <li><i class="fas fa-envelope"></i> <span>hello@olivethyme.com</span></li>
                     </ul>
                 </div>
                 
@@ -246,7 +267,8 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Olive & Thyme.Nikolas Sapalidis <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+                <p>&copy; 2024 Olive & Thyme. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+                <p class="built-by">Built by <a href="https://nikolassapa.vercel.app" target="_blank" rel="noopener noreferrer">Nikolas Sapalidis</a></p>
             </div>
         </div>
     </footer>
